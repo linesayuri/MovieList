@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Movie-List</string>
+    <string name="text_welcome">Bem-vindo ao</string>
+    <string name="hint_login_email">Email</string>
+    <string name="hint_login_senha">Senha</string>
+    <string name="btn_login">Entrar</string>
+    <string name="text_home_choosecategory">Escolha a categoria de filmes que deseja listar</string>
+    <string name="category_1">Os que estão em alta</string>
+    <string name="category_2">Aclamados pela Crítica</string>
+    <string name="category_3">Os que estão por vir</string>
+    <string name="btn_logout">Sair</string>
+    <string name="btn_back">Voltar</string>
+    <string name="title_movie_1">Planeta dos Macacos: O Reinado</string>
+    <string name="title_movie_2">Guerra Civil</string>
+    <string name="title_movie_3">Godzilla e Kong: O Novo Império</string>
+    <string name="title_movie_4">Atlas</string>
+    <string name="title_movie_5">Um Sonho de Liberdade</string>
+    <string name="title_movie_6">O Poderoso Chefão</string>
+    <string name="title_movie_7">O Poderoso Chefão: Parte II</string>
+    <string name="title_movie_8">A Lista de Schindler</string>
+    <string name="title_movie_9">Furiosa: Uma Saga Mad Max</string>
+    <string name="title_movie_10">Garfield - Fora de Casa</string>
+    <string name="title_movie_11">Divertida Mente 2</string>
+    <string name="title_movie_12">Rivais</string>
+    <string name="sinopse_movie_1">Sinopse: Várias gerações no futuro, após o reinado de César, os macacos são agora a espécie dominante e vivem harmoniosamente, enquanto os humanos foram reduzidos a viver nas sombras. À medida que um novo líder símio tirânico constrói o seu império, um jovem macaco empreende uma jornada angustiante que o levará a questionar tudo o que sabia sobre o passado e a fazer escolhas que definirão um futuro tanto para os macacos como para os humanos.</string>
+    <string name="release_movie_11">2024-05-08</string>
+    <string name="release_txt">Data de Lançamento:</string>
+
+
+</resources>

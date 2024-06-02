@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/category_1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/primary_color"
+        android:text="@string/btn_back"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_movie_9"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/title_movie_1"
+        android:scaleType="centerInside"
+        android:src="@drawable/furiosa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/title_movie_9"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_movie_9"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_movie_9"
+        app:layout_constraintStart_toStartOf="@+id/btn_movie_9"
+        app:layout_constraintTop_toBottomOf="@+id/btn_movie_9" />
+
+    <ImageButton
+        android:id="@+id/btn_movie_10"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/title_movie_2"
+        android:scaleType="centerInside"
+        android:src="@drawable/garfield"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/title_movie_10"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/title_movie_10"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_movie_10"
+        app:layout_constraintStart_toStartOf="@+id/btn_movie_10"
+        app:layout_constraintTop_toBottomOf="@+id/btn_movie_10" />
+
+    <ImageButton
+        android:id="@+id/btn_movie_12"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/title_movie_3"
+        android:scaleType="centerInside"
+        android:src="@drawable/rivais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_movie_10" />
+
+    <TextView
+        android:id="@+id/title_movie_12"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_movie_12"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_movie_12"
+        app:layout_constraintStart_toStartOf="@+id/btn_movie_12"
+        app:layout_constraintTop_toBottomOf="@+id/btn_movie_12" />
+
+    <ImageButton
+        android:id="@+id/btn_movie_11"
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="@string/title_movie_4"
+        android:scaleType="centerInside"
+        android:src="@drawable/divertidamente2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_movie_9" />
+
+    <TextView
+        android:id="@+id/title_movie_11"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/title_movie_11"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btn_movie_11"
+        app:layout_constraintStart_toStartOf="@+id/btn_movie_11"
+        app:layout_constraintTop_toBottomOf="@+id/btn_movie_11" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
